@@ -13,7 +13,7 @@ While FaceMash pitted college students against each other, Kitty Kombat offers a
 
 - Two random cat images are presented side by side.
 - Users vote on their preferred cat by clicking on either the "Kitty A" or "Kitty B" button.
-- The chosen image remains, and a new random cat replaces the other.
+- The chosen image gets replaced, and a new random cat replaces it.
 - If both options are undesirable, a "Skip" button refreshes both images simultaneously.
 
 ## Features
