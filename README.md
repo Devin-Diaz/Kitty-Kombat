@@ -1,7 +1,7 @@
 # [Kitty Kombat](https://devin-diaz.github.io/Kitty-Kombat/)
 **A fun way to pick the cutest cats!**
 
-![Kitty Kombat Screenshot](path/to/screenshot.png)
+![Kitty Kombat Screenshot](assets/output.png)
 
 ## Project Overview
 
