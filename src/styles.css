@@ -1,3 +1,5 @@
+
+/* header styling */
 .header{
     width: 100%;
     height: 100px;
@@ -12,6 +14,7 @@
     font-size: 48px;
 }
 
+/* intro sentence styling */
 .intro-sentence {
     margin-top: 15px;
     width: 100%;
@@ -27,6 +30,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* choose cat sentence styling */
 .choose-cat-sentence {
     margin-top: 35px;
     width: 100%;
@@ -42,6 +46,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* the grid that contains the cat images and the 'vs' image */
 .kombat-grid {
     display: grid;
     grid-template-columns: 1fr auto 1fr;  
@@ -49,6 +54,7 @@
     margin-top: 50px;
 }
 
+/* each specific grid item, in my case [img] [img] [img] */
 .grid-item {
     display: flex;
     justify-content: center;  
@@ -60,6 +66,7 @@
     height: auto;
 }
 
+/* styling for buttons where you choose which kitten is cuter [A] || [B] */
 .kitty-buttons {
     margin-top: 40px;
     display: flex;  
@@ -82,5 +89,38 @@
 
 .kitty-buttons button:hover {
     background-color: rgba(139, 0, 0, 0.4); 
+}
+
+.kitty-buttons button:active {
+    background-color: rgba(139, 0, 0, 0.2); /* Lighter shade when button is pressed */
+}
+
+/* styling for skip image button */
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;  /* Adjust the value as needed to move the button up */
+
+}
+
+.arrow button {
+    background: none;  /* Removes the default background */
+    border: none;  /* Removes the default border */
+    cursor: pointer;  /* Changes the cursor to a pointer to indicate it's clickable */
+    padding: 10px;  /* Adds some padding around the image for easier clicking */
+    transition: transform 0.3s ease;  /* Smooth transformation on click */
+}
+
+.arrow button:focus {
+    outline: none;  /* Removes the default focus outline */
+}
+
+.arrow button:hover {
+    transform: scale(1.1);  /* Enlarges the button slightly on hover */
+}
+
+.arrow button:active {
+    transform: scale(0.9);  /* Scales down the button when clicked */
 }
 

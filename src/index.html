@@ -9,7 +9,7 @@
     <body>
 
         <div class="header">
-            <h1>Kitty-Kombat</h1>
+            <h1>KITTY-KOMBAT</h1>
         </div>
 
         <div class="intro-sentence">
@@ -21,15 +21,20 @@
         </div>
 
         <div class="kombat-grid">
-            <div class="grid-item"><img src="assets/frame-img.png" style="width: 550px; height: 500px;"></div>
+            <div class="grid-item"><img id="cat-image-A" src="" style="width: 550px; height: 500px;"></div>
             <div class="grid-item"><img src="assets/vs-img.png" style="width: 100%; height: auto;"></div>
-            <div class="grid-item"><img src="assets/frame-img.png" style="width: 550px; height: 500px;"></div>
+            <div class="grid-item"><img id="cat-image-B" src="" style="width: 550px; height: 500px;"></div>            
         </div>
 
         <div class="kitty-buttons">
-            <button>Kitty A</button>
-            <button>Kitty B</button>
+            <button id="new-cat-A">Kitty A</button>
+            <button id="new-cat-B">Kitty B</button>
         </div>
 
+        <div class="arrow">
+            <button id="skip-button"> <img src="assets/arrow.png" style="width: 75px; height: 75px;"> </button>
+        </div>
+
+    <script src="script.js"></script>
     </body>
 </html>
