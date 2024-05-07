@@ -1,5 +1,5 @@
 # [Kitty Kombat](https://devin-diaz.github.io/Kitty-Kombat/)
-**A fun way to pick the cutest cats!**
+### **A fun way to pick the cutest cats!**
 
 ![Kitty Kombat Screenshot](assets/output.png)
 
