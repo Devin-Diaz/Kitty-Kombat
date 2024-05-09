@@ -1,8 +1,8 @@
 
 
 // Add event listeners to the buttons that will trigger fetching new cat images
-document.getElementById('new-cat-A').addEventListener('click', () => fetchCatImage('cat-image-A'));
-document.getElementById('new-cat-B').addEventListener('click', () => fetchCatImage('cat-image-B'));
+document.getElementById('new-cat-A').addEventListener('click', () => fetchCatImage('cat-image-B'));
+document.getElementById('new-cat-B').addEventListener('click', () => fetchCatImage('cat-image-A'));
 document.getElementById('skip-button').addEventListener('click', skipBothCatImages);
 
 /**
