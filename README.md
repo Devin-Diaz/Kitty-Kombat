@@ -1,4 +1,4 @@
-# [Kitty Kombat](https://devin-diaz.github.io/Kitty-Kombat/)
+# [View live site here!](https://devin-diaz.github.io/Kitty-Kombat/)
 ### **A fun way to pick the cutest cats!**
 
 ![Kitty Kombat Screenshot](assets/output.png)
